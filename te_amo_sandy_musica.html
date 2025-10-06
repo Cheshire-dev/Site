@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Eu te amo, Sandy</title>
+<style>
+  @keyframes float {0% { transform: translateY(0px); }50% { transform: translateY(-12px); }100% { transform: translateY(0px); }}
+  body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;background: radial-gradient(circle at 10% 20%, #ffd1dc, #ff9ab8 30%, #ff6f91 60%, #ff4d6d 100%);font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:#fff;text-align:center;}
+  .card{background: rgba(255,255,255,0.06);padding:32px;border-radius:20px;backdrop-filter: blur(6px);box-shadow: 0 10px 30px rgba(0,0,0,0.2);max-width:760px;animation: float 4s ease-in-out infinite;}
+  h1{margin:0 0 12px 0;font-size:36px;letter-spacing:1px;}
+  p{margin:0;font-size:22px;}
+  .heart{font-size:48px;display:block;margin-bottom:12px;filter: drop-shadow(0 6px 14px rgba(0,0,0,0.25));}
+  footer{margin-top:18px;opacity:0.9;font-size:14px;}
+</style>
+</head>
+<body>
+  <div class="card" role="region" aria-label="Mensagem romântica">
+    <div class="heart">💖</div>
+    <h1>Eu te amo, Sandy.</h1>
+    <p>Dou a vida por um beijo.</p>
+    <footer>— ❤️ Uma surpresa só pra você</footer>
+  </div>
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+</body>
+</html>
